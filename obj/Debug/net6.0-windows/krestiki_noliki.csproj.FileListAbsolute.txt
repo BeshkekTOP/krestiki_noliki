@@ -1,0 +1,4 @@
+C:\Users\User\source\repos\krestiki_noliki\krestiki_noliki\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\User\source\repos\krestiki_noliki\krestiki_noliki\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\User\source\repos\krestiki_noliki\krestiki_noliki\obj\Debug\net6.0-windows\krestiki_noliki_MarkupCompile.cache
+C:\Users\User\source\repos\krestiki_noliki\krestiki_noliki\obj\Debug\net6.0-windows\krestiki_noliki_MarkupCompile.lref
