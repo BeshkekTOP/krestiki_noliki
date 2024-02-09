@@ -63,12 +63,12 @@ namespace krestiki_noliki
             board[row, col] = currentPlayer;
             if (CheckWin(currentPlayer))
             {
-                txtResult.Text = $"Player {currentPlayer} wins!";
+                txtResult.Text = $"Игрок {currentPlayer} выйграл!";
                 DisableButtons();
             }
             else if (IsBoardFull())
             {
-                txtResult.Text = "It's a draw!";
+                txtResult.Text = "Ничья!";
                 DisableButtons();
             }
             else
@@ -80,12 +80,12 @@ namespace krestiki_noliki
                 board[robotMove / 3, robotMove % 3] = currentPlayer;
                 if (CheckWin(currentPlayer))
                 {
-                    txtResult.Text = $"Player {currentPlayer} wins!";
+                    txtResult.Text = $"Игрок {currentPlayer} выйграл!";
                     DisableButtons();
                 }
                 else if (IsBoardFull())
                 {
-                    txtResult.Text = "It's a draw!";
+                    txtResult.Text = "Ничья!";
                     DisableButtons();
                 }
                 else
@@ -167,5 +167,6 @@ namespace krestiki_noliki
                 button.IsEnabled = false;
             }
         }
+
     }
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "krestiki_noliki/1.0.0": {
+        "runtime": {
+          "krestiki_noliki.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "krestiki_noliki/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
